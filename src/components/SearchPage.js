@@ -54,7 +54,7 @@ function SearchPage() {
 
       //sending the game name to backend
       $.ajax({
-        url: 'http://127.0.0.1:5000/responer',
+        url: 'https://recommgamerwebsite.herokuapp.com/',
         type: 'post',
         contentType: "application/json; charset=utf-8",
         cache: false,
